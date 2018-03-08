@@ -1,0 +1,49 @@
+{
+  "name": "budget-planner-express-server",
+  "version": "1.0.0",
+  "description": "SoftUni react exam - Buddget planner",
+  "author": {
+    "name": "Hristo Skipernov",
+    "email": "ico_skipernov@abv.bg"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "1.17.2",
+    "cors": "2.8.3",
+    "crypto": "^1.0.1",
+    "express": "4.15.3",
+    "jsonwebtoken": "7.4.1",
+    "mongoose": "^5.0.9",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "validator": "7.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vonrepiks/Budget-planner.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}
